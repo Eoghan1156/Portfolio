@@ -1,0 +1,84 @@
+html
+body {background-color: black;
+    margin: 0;
+    margin-top: none;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: red;
+}
+
+header  {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 1000px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+
+{
+  box-sizing: border-box;
+}
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+
+section h2 {
+    font-size: 2.5em;
+    color:red;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 1.5em;
+    color: whitesmoke;
+         margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 160px;
+    text-align: left;
+        
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+about {
+    background-image:  url('https://raw.githubusercontent.com/Eoghan1156/ImageHost/master/porfolio%20background4.png');
+
+}
